@@ -4,6 +4,7 @@ import Login from './pages/Login'
 import Register from './pages/Register'
 import './App.css'
 import AddStudent from './pages/AddStudent'
+import About from './pages/About'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Route path='/login' element={<Login />} />
       <Route path='/register' element={<Register />} />
       <Route path='/add-student' element={<AddStudent />} />
+      <Route path='/about' element={<About />} />
     </Routes>
   )
 }
